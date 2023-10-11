@@ -12,7 +12,7 @@ variables:
   value: '["uksouth", "australiaeast"]' # Check which regions are valid. There is a list in /src/infra/README.md
 
 - name: 'stampLocationsGrafana'
-  value: '["uksouth"]' # Check which regions are valid. There is a list in /src/infra/README.md
+  value: '["useast"]' # Check which regions are valid. There is a list in /src/infra/README.md
 
 # Terraform state variables
 - name:  'terraformResourceGroup'
@@ -28,4 +28,4 @@ variables:
 
 # Other settings
 - name:  'contactEmail'
-  value: 'noreply@microsoft.com'  # <===== CHANGE THIS VALUE TO ONE OF YOUR REAL EMAIL ADDRESSES (OR A GROUP)!
+  value: 'gappiah@microsoft.com'  # <===== CHANGE THIS VALUE TO ONE OF YOUR REAL EMAIL ADDRESSES (OR A GROUP)!
